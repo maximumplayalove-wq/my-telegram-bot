@@ -19,7 +19,7 @@ initial_system_instruction = (
 )
 
 chat_session = ai_client.chats.create(
-    model="gemini-1.5-flash",
+    model="gemini-2.0-flash",
     config={"system_instruction": initial_system_instruction}
 )
 
